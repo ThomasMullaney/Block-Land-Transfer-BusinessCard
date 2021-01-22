@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {ThemeProvider} from "styled-components";
 import {theme} from "./themes/theme";
+import Container from "react-bootstrap/Container";
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
